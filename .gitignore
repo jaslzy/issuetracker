@@ -1,0 +1,28 @@
+# Ignore for Node.js (Angular)
+frontend_angular/node_modules/
+frontend_angular/dist/
+frontend_angular/.angular/
+frontend_angular/.idea/
+frontend_angular/.vscode/
+
+# Ignore for Java (Spring Boot)
+backend_springboot/target/
+backend_springboot/.idea/
+backend_springboot/.vscode/
+backend_springboot/logs/
+backend_springboot/*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+*.iml
+*.classpath
+*.project
+.vscode/
+.idea/
+
+# Ignore environment or sensitive files
+frontend_angular/src/environments/environment*.ts
+backend_springboot/src/main/resources/application*.properties
